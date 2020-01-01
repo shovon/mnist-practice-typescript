@@ -1,4 +1,5 @@
 import Matrix from './matrix';
+import { indexMax } from './helpers';
 
 /**
  * Combines two iterables into a single iterable. At each iteration, the value
@@ -101,10 +102,6 @@ function * iterate<T>(iterable: Iterable<T>): Iterable<[T, number]> {
 function sumFn(result: number, next: number) {
   // TODO: unit test this.
   return result + next;
-}
-
-function indexMax(array: number[]) {
-  return array.reduce((max, next, i) => next > array[max] ? i : max, 0);
 }
 
 type Model = {

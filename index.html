@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>We Read Numbers | MNIST JavaScript</title>
+    <style>
+      #drawing, #preview, #grayscale {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id='drawing' width='256' height='256'></canvas>
+    <canvas id='preview' width='28' height='28'></canvas>
+    <canvas id='grayscale' width='28' height='28'></canvas>
+    <br>
+    <div id='prediction'></div>
+    <br>
+    <button id='clear'>Clear</button>
+    <script src='script.ts'></script>
+  </body>
+</html>
