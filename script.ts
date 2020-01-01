@@ -1,6 +1,8 @@
 import Network from "./network";
 import { indexMax } from './helpers';
 import 'babel-polyfill';
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 
 const model = require('./model.json');
 

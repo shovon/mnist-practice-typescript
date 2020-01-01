@@ -4,15 +4,17 @@
     "@types/node": "^13.1.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.1",
     "mkdirp": "^0.5.1",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "regenerator-runtime": "^0.13.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "typescript": "^3.7.4"
   },
   "browserslist": [
-    "since 2017-06"
+    "last 1 Chrome versions"
   ],
   "scripts": {
     "build": "parcel build index.html"
